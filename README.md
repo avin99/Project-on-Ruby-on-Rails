@@ -1,6 +1,5 @@
 # Project-on-Ruby-on-Rails
 
-User Flow:
 I have performed the validation steps using the devise gem and 
 the comment section is added with the help of library availble on 
 the following link https://stackoverflow.com/questions/14584218/how-to-add-facebook-comments-to-a-rails-application.
