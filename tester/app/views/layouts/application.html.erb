@@ -18,9 +18,9 @@
   <%= link_to 'HOMEPAGE', root_path, class: 'navbar-brand' %>
     
       <% if user_signed_in? %>
-      <%= link_to 'New Post', new_post_path, class: 'navbar-brand'%>
+      <%= link_to 'Create Advertisement', new_post_path, class: 'navbar-brand'%>
       <% else %>
-      <%= link_to 'Admin Login', new_user_session_path, class: 'navbar-brand' %>
+      <%= link_to 'Login', new_user_session_path, class: 'navbar-brand' %>
       <% end %>
 
     
