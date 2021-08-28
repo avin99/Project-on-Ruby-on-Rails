@@ -20,9 +20,7 @@
     <%= form.label :body %>
     <%= form.text_area :body, class: 'form-control' %>
   </div>
-  <% if user_signed_in? %>
-  <%= form.submit "Update Advertisement", class: 'btn btn-primary' %>
-  <% else %>
+  
   <%= form.submit "Publish Advertisement", class: 'btn btn-primary' %>
-  <% end %>
+ 
 <% end %>
